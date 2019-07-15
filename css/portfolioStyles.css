@@ -1,0 +1,137 @@
+
+@font-face{
+	font-family: flashlight;
+	src: url(../assets/flashlight.ttf);
+}
+
+@font-face{
+	font-family: cows;
+	src: url(../assets/cows.ttf);
+}
+
+@font-face{
+	font-family: caviar;
+	src: url(../assets/caviar.ttf);
+}
+
+@font-face{
+	font-family: caviarB;
+	src: url(../assets/caviarB.ttf);
+}
+
+@font-face{
+	font-family: caviarI;
+	src: url(../assets/caviarI.ttf);
+}
+
+@font-face{
+	font-family: caviarBI;
+	src: url(../assets/caviarBI.ttf);
+
+}
+
+
+body {
+	background-color: white;
+}
+
+/* select using id */ 
+
+h1{
+	color: black;
+	font-family: cows;
+	font-size: 50pt;
+	background-color: goldenrod;
+
+}
+
+
+
+/* select using class */ 
+
+.navItem{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: white;
+}
+
+/* select using x-path, DOM tree */
+
+nav{
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+	display: flex;
+}
+
+nav ul a{
+	border: solid 1px purple;
+
+	flex-grow: 1;
+
+	text-align: center;
+
+	font-family: cows;
+
+	font-size: 40pt;
+
+}
+
+/* nav #mainNav li:hover{
+	background-color: black;
+}
+
+*/
+
+nav ul a:link{
+	color: black;
+}
+
+nav ul a li:hover{
+	color: black;
+	background-color: goldenrod;
+}
+
+nav ul a:active{
+	color: black;
+}
+
+nav ul a:visited{
+	color: gray;
+}
+
+nav ul a li:focus{
+	color: green;
+}
+
+h3{
+	text-align: center;
+	background-color: white;
+}
+
+
+#map{
+	float: right;
+}
+
+img{
+	border: 3px solid blue;
+	background-color: white;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+blockquote{
+
+	text-align: center;
+	font-family: caviar;
+	font-size: 14pt;
+}
+

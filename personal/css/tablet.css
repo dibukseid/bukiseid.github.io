@@ -1,0 +1,176 @@
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+
+
+@font-face{
+  font-family: flashlight;
+  src: url(../assets/flashlight.ttf);
+}
+
+@font-face{
+  font-family: cows;
+  src: url(../assets/cows.ttf);
+}
+
+@font-face{
+  font-family: caviar;
+  src: url(../assets/caviar.ttf);
+}
+
+@font-face{
+  font-family: caviarB;
+  src: url(../assets/caviarB.ttf);
+}
+
+@font-face{
+  font-family: caviarI;
+  src: url(../assets/caviarI.ttf);
+}
+
+@font-face{
+  font-family: caviarBI;
+  src: url(../assets/caviarBI.ttf);
+
+}
+
+body {
+  background-color: white;
+}
+
+    img{
+    width: 100%;
+    height: auto;
+  }
+
+  .title{
+    font-family: CaviarB;
+    text-align: center;
+  }
+
+  .aboutTitle{
+    font-family: caviarB;
+  }
+
+  .aboutBody{
+    font-family: caviar;
+  }
+
+  .contactTitle{
+    font-family: caviarB;
+  }
+
+.menu {
+  background-color: #800020;
+  height: 60px;
+   width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: caviarB;
+}
+
+#button{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.header{
+    background-color: #fff;
+    height: 200px;
+}
+
+.viewmore {
+
+  display: flex;
+  font-family: caviarB;
+  justify-content: center;
+  padding: 20px;
+}
+
+#viewbutton{
+  border: 3px solid black;
+  background-color: #800020; /* RED */
+  padding: 10px;
+}
+
+.testimonial{
+  background-color: #800020;
+  color: white;
+  padding: 30px;
+  font-size: 40pt;
+  font-family: caviar;
+  text-align: center;
+}
+
+.facebooklink{
+  background-color: #800020;
+  padding: 20px;
+  font-size: 30pt;
+  font-family: caviar;
+  text-align: center;
+}
+
+#weddingwishes{
+  background-color: #800020;
+  padding: 30px;
+  font-size: 14pt;
+  font-family: caviar;
+  text-align: center; 
+}
+
+.talktous{
+  display: flex;
+  flex-direction: column; 
+  background-color: #800020;
+  color: white;
+  font-family: CaviarBI;
+  font-size: 60pt;
+  text-align: center;
+}
+
+#planmessage{
+  align-self: center;
+  font-family: caviar;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.contactform{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  align-items: center; 
+  font-family: caviar;
+}
+
+.formitem{
+  padding: 15px; 
+}
+
+
+.pspractice{
+  border: solid black;
+  font-family: caviarB;
+  text-align: center;
+  padding: 30px;
+}
+
+legend{
+  text-align: center;
+}
+}

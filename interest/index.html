@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+	<!--<link rel="stylesheet" type="text/css" href="css/global.css"> -->
+  <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+  <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+  <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+	<title>Island Creations</title>
+  <a href="../index.html"> Back to Portfolio </a>
+</head>
+<body>
+
+<div class='page'>
+  <div class='section menu' id="myTopnav">
+    <nav>
+
+    <ul style="list-style-type: none">
+      <a href="index.html"><li class="navItem">
+          Home</li></a>
+      <a href="about.html"><li class="navItem">
+          The Squad</li></a>
+      <a href="services.html"><li class="navItem">
+          Services</li></a>
+      <a href="contact.html"><li class="navItem">
+          Plan It</li></a>
+      <a href="blog.html"><li class="navItem">
+          Bloggin'</li></a>
+    </ul> 
+    </nav>
+  </div>
+
+  <div class='section header'>
+    <img src='images/iclogo.png'/>
+  </div>
+</div>
+
+<div class="media">
+  <img src="images/media.png">
+  <div class="viewmore">
+    
+    <nav id="viewbutton">
+      <ul style="list-style-type: none" >
+      <a href="blog.html" style="text-decoration-line: none"><li>View More</li>
+      </a>
+    </ul>
+    </nav>
+  </div>
+</div>
+<!--<div class="form">
+  <img src="images/form.png" id="formpic">
+</div>
+-->
+<div class="talktous">
+  <blockquote>
+    Talk to Us
+  </blockquote>
+  <p id="planmessage">
+    Help us plan your party! 
+  </p>
+</div>
+<div class="container" style="font-family: caviarB">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Event Type</label>
+    <select id="country" name="country">
+      <option value="select">Select</option>
+      <option value="birthday">Birthday</option>
+      <option value="baby shower">Baby Shower</option>
+      <option value="corporate">Corporate</option>
+    </select>
+
+    <label for="subject">Tell us your dream event so we can make it happen!</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+<div class="testimonial">
+  <blockquote>
+    "Testimonial Goes Here!"
+  </blockquote>
+</div>
+</body>
+</html>

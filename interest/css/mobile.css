@@ -1,0 +1,142 @@
+@media only screen and (max-width: 480px) {
+
+
+@font-face{
+  font-family: caviar;
+  src: url(../assets/caviar.ttf);
+}
+
+@font-face{
+  font-family: caviarB;
+  src: url(../assets/caviarB.ttf);
+}
+
+@font-face{
+  font-family: caviarI;
+  src: url(../assets/caviarI.ttf);
+}
+
+@font-face{
+  font-family: caviarBI;
+  src: url(../assets/caviarBI.ttf);
+
+}
+
+body {
+  background-color: white;
+}
+
+
+  .header{
+    height: 150px;
+    background-color: #fff;
+  }
+
+  body {
+
+    background-color: #F09A9D; /* RED */
+  }
+
+    img{
+    width: 100%;
+    height: auto;
+  }
+
+
+.menu {
+  background-color: #ffc0cb;
+  height: 50px;
+   width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: caviar;
+}
+
+
+.viewmore {
+
+  display: flex;
+  font-family: caviarB;
+  justify-content: center;
+  padding: 20px;
+}
+
+#viewbutton{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.testimonial{
+  background-color: #ffc0cb;
+  padding: 30px;
+  font-size: 40pt;
+  font-family: caviar;
+  text-align: center;
+}
+
+.facebooklink{
+  background-color: #ffc0cb;
+  padding: 20px;
+  font-size: 30pt;
+  font-family: caviar;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#weddingwishes{
+  background-color: #ffc0cb;
+  padding: 30px;
+  font-size: 14pt;
+  font-family: caviar;
+  text-align: center; 
+}
+
+
+.talktous{
+  display: flex;
+  flex-direction: column; 
+  background-color: #fff;
+  font-family: CaviarBI;
+  font-size: 60pt;
+  text-align: center;
+}
+
+#planmessage{
+  align-self: center;
+  font-family: caviar;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.contactform{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  font-family: caviar;
+}
+
+.formitem{
+  color: #fff;
+  padding: 15px; 
+}
+
+legend{
+  color: #fff;
+  text-align: center;
+}
+}

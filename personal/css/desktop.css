@@ -1,0 +1,213 @@
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+ 
+
+
+@font-face{
+  font-family: caviar;
+  src: url(../assets/caviar.ttf);
+}
+
+@font-face{
+  font-family: caviarB;
+  src: url(../assets/caviarB.ttf);
+}
+
+@font-face{
+  font-family: caviarI;
+  src: url(../assets/caviarI.ttf);
+}
+
+@font-face{
+  font-family: caviarBI;
+  src: url(../assets/caviarBI.ttf);
+
+}
+
+  .title{
+    font-family: CaviarB;
+    text-align: center;
+  }
+
+  .aboutTitle{
+    font-family: caviarB;
+  }
+
+   .aboutBody{
+    font-family: caviar;
+  }
+
+  .contactTitle{
+    font-family: caviarB;
+  }
+
+  .page {
+    width: 960px; 
+    margin: 0 auto;
+  }
+
+  .header {
+    height: 200px;
+    background-color: #fff;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background-color: #800020;
+  height: 50px;
+   width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: caviar;
+}
+
+
+.viewmore {
+
+  display: flex;
+  padding: 30px; 
+  font-size: 20pt;
+  font-family: caviarB;
+  justify-content: center;
+}
+
+#viewbutton{
+  background-color: #800020; /* RED */
+  border: 3px solid black;
+  padding: 10px;
+}
+
+#button{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.testimonial{
+  background-color: #800020;
+  padding: 30px;
+  font-size: 40pt;
+  font-family: caviar;
+  text-align: center;
+}
+
+#formpic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#squad{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.facebooklink{
+  background-color: #ffc0cb;
+  padding: 20px;
+  font-size: 30pt;
+  font-family: caviar;
+  text-align: center;
+}
+
+#facebooklogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#wedding{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#weddingwishes{
+  background-color: #800020;
+  padding: 30px;
+  font-size: 14pt;
+  font-family: caviar;
+  text-align: center;	
+}
+
+
+.talktous{
+  display: flex;
+  flex-direction: column; 
+  background-color: #800020;
+  font-family: CaviarBI;
+  font-size: 60pt;
+  text-align: center;
+}
+
+#planmessage{
+  align-self: center;
+  font-family: caviar;
+  font-size: 14pt;
+  text-align: center;
+}
+
+
+.contactform{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  align-items: center;
+  font-family: caviar;
+}
+
+.formitem{
+  padding: 15px; 
+}
+
+.pspractice{
+  border: solid black;
+  font-family: caviarB;
+  text-align: center;
+  padding: 30px;
+}
+legend{
+  text-align: center;
+}
+}
+

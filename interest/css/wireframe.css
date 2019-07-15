@@ -1,0 +1,74 @@
+body{
+  background: #f0f0f0;
+}
+
+
+header{
+  /*flexbox*/
+  display : flex;
+  border : solid 1px black;
+}
+
+
+#navBox{
+  border : solid 1px black;
+  flex : 1;
+}
+
+nav{}
+
+nav ul{
+  list-style : none;
+  padding : 0px;
+  margin : 0px;
+
+  display : flex;
+}
+
+nav ul li{
+  border : solid 1px black;
+  flex-grow : 1; 
+  text-align : center;
+}
+
+#logo{
+  border: solid 1px black;
+  min-height: 150px;
+  flex: 2;
+  text-align: center;
+}
+
+#mainArea{
+  border : solid 1px black;
+  display : flex;
+}
+
+
+.row{
+  display : flex;
+}
+
+.box{
+  border : solid 1px black;
+  min-width : 300px;
+  min-height : 300px;
+
+  flex-grow : 1;
+  text-align: center;
+}
+
+.contact{
+  border: solid 1px black;
+  min-height: 150px;
+  flex: 2;
+  text-align: center;
+}
+
+.rectbox{
+  border : solid 1px black;
+
+  min-height : 300px;
+
+  flex : 2;
+  text-align: center;
+}

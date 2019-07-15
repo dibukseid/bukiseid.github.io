@@ -1,0 +1,212 @@
+
+
+
+@font-face{
+	font-family: flashlight;
+	src: url(../assets/flashlight.ttf);
+}
+
+@font-face{
+	font-family: cows;
+	src: url(../assets/cows.ttf);
+}
+
+@font-face{
+	font-family: caviar;
+	src: url(../assets/caviar.ttf);
+}
+
+@font-face{
+	font-family: caviarB;
+	src: url(../assets/caviarB.ttf);
+}
+
+@font-face{
+	font-family: caviarI;
+	src: url(../assets/caviarI.ttf);
+}
+
+@font-face{
+	font-family: caviarBI;
+	src: url(../assets/caviarBI.ttf);
+
+}
+
+body {
+	background-color: white;
+}
+
+/* select using id */ 
+
+#logo{
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.intro{
+	display: flex;
+	flex-direction: wrap;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.profile{
+	align-self: center;
+}
+
+h1{
+	color: white;
+	font-family: caviarBI;
+	font-size: 50pt;
+	background-color: goldenrod;
+	padding: 50px;
+
+	background-image: url(../images/palaucss.jpg); 
+
+}
+
+#navigations{
+	border: none;
+
+	/* 
+
+		border-style : solid;
+		border-width: 1px;
+		border-color: black;
+
+	*/
+
+}
+
+/* select using class */ 
+
+
+
+.navItem{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: white;
+}
+
+/* select using x-path, DOM tree */
+
+
+
+nav{
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+	display: flex;
+}
+
+nav ul a{
+	border: solid 1px black;
+
+	flex-grow: 1;
+
+	text-align: center;
+
+	font-family: cows;
+
+	font-size: 30pt;
+
+}
+
+ nav #navigations li:hover{
+	background-color: blue;
+}
+
+
+
+
+
+nav ul a li:link{
+	color: red;
+}
+
+nav ul a li:hover{
+	color: black;
+	background-color: goldenrod;
+}
+
+nav ul a li:active{
+	color: black;
+}
+
+nav ul a li:visited{
+	color: gray;
+}
+
+nav ul a li:focus{
+	color: green;
+}
+
+#welcome{
+	text-align: center;
+	font-family: caviar;
+	font-size: 14pt;
+}
+
+h3{
+	text-align: center;
+	background-color: white;
+	font-family: caviarB;
+}
+
+h5{
+	text-align: center;
+	border: 3px solid blue;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+blockquote{
+	padding-top: 60px;
+}
+
+
+
+#map{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 35%;
+}
+
+
+
+
+
+#map{
+	float: right;
+}
+
+
+#fbphoto{
+	background-color: white;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+footer{
+	background-color: white;
+
+	font-family: caviar;
+
+}

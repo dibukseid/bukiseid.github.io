@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*mobile styles*/ 
+
+@media only screen and (max-width: 500px) {
+
+
+@font-face{
+  font-family: flashlight;
+  src: url(../assets/flashlight.ttf);
+}
+
+@font-face{
+  font-family: cows;
+  src: url(../assets/cows.ttf);
+}
+
+@font-face{
+  font-family: caviar;
+  src: url(../assets/caviar.ttf);
+}
+
+@font-face{
+  font-family: caviarB;
+  src: url(../assets/caviarB.ttf);
+}
+
+@font-face{
+  font-family: caviarI;
+  src: url(../assets/caviarI.ttf);
+}
+
+@font-face{
+  font-family: caviarBI;
+  src: url(../assets/caviarBI.ttf);
+
+}
+
+body {
+  background-color: white;
+}
+
+
+  .header{
+    height: 800px;
+    background-color: #fff;
+  }
+
+  body {
+
+		background-color: #F09A9D; /* RED */
+	}
+
+    img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.menu {
+  background-color: #ffc0cb;
+  height: 50px;
+   width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: caviar;
+}
+
+
+
+.viewmore {
+
+  display: flex;
+  font-family: caviarB;
+  justify-content: center;
+}
+
+#viewbutton{
+  border: 3px solid black;
+  padding: 20px;
+}
+
+.testimonial{
+  background-color: #ffc0cb;
+  padding: 30px;
+  font-size: 40pt;
+  font-family: caviar;
+  text-align: center;
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+
+
+@font-face{
+  font-family: flashlight;
+  src: url(../assets/flashlight.ttf);
+}
+
+@font-face{
+  font-family: cows;
+  src: url(../assets/cows.ttf);
+}
+
+@font-face{
+  font-family: caviar;
+  src: url(../assets/caviar.ttf);
+}
+
+@font-face{
+  font-family: caviarB;
+  src: url(../assets/caviarB.ttf);
+}
+
+@font-face{
+  font-family: caviarI;
+  src: url(../assets/caviarI.ttf);
+}
+
+@font-face{
+  font-family: caviarBI;
+  src: url(../assets/caviarBI.ttf);
+
+}
+
+body {
+  background-color: white;
+}
+
+    img{
+    width: 100%;
+    height: auto;
+  }
+
+  .header{
+    background-color: #fff;
+    height: 200px;
+  }
+
+.viewmore {
+
+  display: flex;
+  font-family: caviarB;
+  justify-content: center;
+}
+
+#viewbutton{
+  border: 3px solid black;
+      background-color: #F09A9D; /* RED */
+  padding: 20px;
+}
+
+
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+ 
+
+@font-face{
+  font-family: flashlight;
+  src: url(../assets/flashlight.ttf);
+}
+
+@font-face{
+  font-family: cows;
+  src: url(../assets/cows.ttf);
+}
+
+@font-face{
+  font-family: caviar;
+  src: url(../assets/caviar.ttf);
+}
+
+@font-face{
+  font-family: caviarB;
+  src: url(../assets/caviarB.ttf);
+}
+
+@font-face{
+  font-family: caviarI;
+  src: url(../assets/caviarI.ttf);
+}
+
+@font-face{
+  font-family: caviarBI;
+  src: url(../assets/caviarBI.ttf);
+
+}
+
+  .page {
+    width: 960px; 
+    margin: 0 auto;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 33.3%;
+  }
+
+  .header {
+    height: 200px;
+    background-color: #fff;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.menu {
+  background-color: #ffc0cb;
+  height: 50px;
+   width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.viewmore {
+
+  display: flex;
+  padding: 20px; 
+  font-size: 20pt;
+  font-family: caviarB;
+  justify-content: center;
+}
+
+#viewbutton{
+    background-color: #F09A9D; /* RED */
+  border: 3px solid black;
+  padding: 20px;
+}
+
+#formpic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+}
+
